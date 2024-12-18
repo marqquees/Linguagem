@@ -1,13 +1,11 @@
 /*
     Escreva um programa que defina uma matriz quadrada de dimensão máxima [4] e implemente as seguintes funções: 
     
-    1. Uma função que faça a leitura dos elementos da matriz, guardando os valores em memória RAM. 
-    O protótipo deve ser:
+    1. Uma função que faça a leitura dos elementos da matriz, guardando os valores em memória RAM, com o seguinte protótipo:
         void leitura(int matriz[][MAX_C]);
     2. Uma função que devolva a média da diagonal principal, com o seguinte protótipo:
         float media_diagonal(int matriz[][MAX_C]);
-    3. Uma função que devolva um vector com os elementos cujo valor seja superior à média da diagonal principal, 
-    com o seguinte protótipo:
+    3. Uma função que devolva um vector com os elementos cujo valor seja superior à média da diagonal principal, com o seguinte protótipo:
         void superior_media(int matriz[][MAX_C], float mdiagonal);
     4.Uma função que devolva uma matriz com o número de ocorrências de cada elemento, com o seguinte protótipo:
         void ocorrencia(int matriz[][MAX_C], int matriz_ocorr[][2]);
